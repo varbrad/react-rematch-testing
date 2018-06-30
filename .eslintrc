@@ -5,12 +5,18 @@
     "react",
     "prettier"
   ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     "import/no-unresolved": 2,
     "import/newline-after-import": 2,
     "import/order": 2,
     "react/jsx-sort-props": 2,
     "react/jsx-sort-default-props": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-uses-react": 2,
     "react/prop-types": 2,
     "react/no-this-in-sfc": 2,
     "react/no-children-prop": 2,
@@ -26,6 +32,7 @@
       "never"
     ],
     "no-var": "error",
-    "no-undef": "error"
+    "no-undef": "error",
+    "no-unused-vars": "error"
   }
 }
