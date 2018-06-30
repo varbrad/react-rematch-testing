@@ -1,11 +1,12 @@
 import React from 'react'
+import Screen from '../../components/Screen'
 
 class HomeScreen extends React.PureComponent {
   render() {
     return (
-      <div>
+      <Screen>
         <p>Bob!!</p>
-      </div>
+      </Screen>
     )
   }
 }

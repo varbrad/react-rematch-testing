@@ -5,11 +5,10 @@ import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 import store from './store'
 
-const Root = () => (
+ReactDOM.render(
   <Provider store={store}>
     <App />
-  </Provider>
+  </Provider>,
+  document.getElementById('root')
 )
-
-ReactDOM.render(<Root />, document.getElementById('root'))
 registerServiceWorker()
