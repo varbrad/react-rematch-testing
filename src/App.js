@@ -7,9 +7,9 @@ class App extends React.PureComponent {
     return (
       <Router>
         <div>
-          <h1>Hello!</h1>
+          <h1 className="bob">Hello!</h1>
           <Link to="/">Home</Link>
-          <Route exact path="/" component={HomeScreen} />
+          <Route component={HomeScreen} />
         </div>
       </Router>
     )

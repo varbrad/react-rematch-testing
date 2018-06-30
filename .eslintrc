@@ -2,12 +2,18 @@
   "parser": "babel-eslint",
   "plugins": [
     "import",
+    "react",
     "prettier"
   ],
   "rules": {
     "import/no-unresolved": 2,
     "import/newline-after-import": 2,
     "import/order": 2,
+    "react/jsx-sort-props": 2,
+    "react/jsx-sort-default-props": 2,
+    "react/prop-types": 2,
+    "react/no-this-in-sfc": 2,
+    "react/no-children-prop": 2,
     "prettier/prettier": [
       "error",
       {
@@ -18,6 +24,8 @@
     "semi": [
       "error",
       "never"
-    ]
+    ],
+    "no-var": "error",
+    "no-undef": "error"
   }
 }

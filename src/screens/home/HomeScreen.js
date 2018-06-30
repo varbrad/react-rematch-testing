@@ -4,7 +4,7 @@ class HomeScreen extends React.PureComponent {
   render() {
     return (
       <div>
-        <p>Hello!</p>
+        <p>Bob!!</p>
       </div>
     )
   }
