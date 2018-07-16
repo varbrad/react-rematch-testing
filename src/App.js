@@ -7,7 +7,7 @@ class App extends React.PureComponent {
     return (
       <Router>
         <div>
-          <h1 className="bob">Hello!</h1>
+          <h1>Hello!</h1>
           <Link to="/">Home</Link>
           <Route component={HomeScreen} />
         </div>
